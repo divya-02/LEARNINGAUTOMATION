@@ -1,131 +1,305 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="2" failed="0" skipped="4">
+<testng-results ignored="0" total="18" passed="14" failed="0" skipped="4">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-07-27T01:31:39 EDT" name="Default suite" finished-at="2023-07-27T01:32:01 EDT" duration-ms="21899">
+  <suite started-at="2023-07-27T21:55:33 EDT" name="Suite" finished-at="2023-07-27T21:57:43 EDT" duration-ms="130462">
     <groups>
     </groups>
-    <test started-at="2023-07-27T01:31:39 EDT" name="Default test" finished-at="2023-07-27T01:32:01 EDT" duration-ms="21899">
-      <class name="TestNG_23July_Assignment">
-        <test-method is-config="true" signature="tutorialNinja()[pri:0, instance:TestNG_23July_Assignment@25084a1e]" started-at="2023-07-27T01:31:39 EDT" name="tutorialNinja" finished-at="2023-07-27T01:31:45 EDT" duration-ms="5894" status="PASS">
+    <test started-at="2023-07-27T21:55:33 EDT" name="Test" finished-at="2023-07-27T21:57:43 EDT" duration-ms="130462">
+      <class name="com.day11DataProvider.automation.ClassAssignment_TN2">
+        <test-method is-config="true" signature="tutorialNinja()[pri:0, instance:com.day11DataProvider.automation.ClassAssignment_TN2@593aaf41]" started-at="2023-07-27T21:56:45 EDT" name="tutorialNinja" finished-at="2023-07-27T21:56:49 EDT" duration-ms="3603" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tutorialNinja -->
-        <test-method signature="loginTestCase1()[pri:1, instance:TestNG_23July_Assignment@25084a1e]" started-at="2023-07-27T01:31:45 EDT" name="loginTestCase1" finished-at="2023-07-27T01:31:49 EDT" duration-ms="4296" status="PASS">
+        <test-method signature="loginTestCase1(java.lang.String,java.lang.String)[pri:1, instance:com.day11DataProvider.automation.ClassAssignment_TN2@593aaf41]" started-at="2023-07-27T21:56:49 EDT" name="loginTestCase1" data-provider="TutorialsNinja" finished-at="2023-07-27T21:56:51 EDT" duration-ms="2440" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pateldivya301@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Qwerty@123]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTestCase1 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNG_23July_Assignment@25084a1e]" started-at="2023-07-27T01:31:49 EDT" name="tearDown" finished-at="2023-07-27T01:31:49 EDT" duration-ms="195" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.day11DataProvider.automation.ClassAssignment_TN2@593aaf41]" started-at="2023-07-27T21:56:51 EDT" name="tearDown" finished-at="2023-07-27T21:56:51 EDT" duration-ms="106" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="tutorialNinja()[pri:0, instance:TestNG_23July_Assignment@25084a1e]" started-at="2023-07-27T01:31:49 EDT" name="tutorialNinja" finished-at="2023-07-27T01:31:53 EDT" duration-ms="4326" status="PASS">
+        <test-method is-config="true" signature="tutorialNinja()[pri:0, instance:com.day11DataProvider.automation.ClassAssignment_TN2@593aaf41]" started-at="2023-07-27T21:56:51 EDT" name="tutorialNinja" finished-at="2023-07-27T21:56:55 EDT" duration-ms="3907" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tutorialNinja -->
-        <test-method signature="loginTestCase2()[pri:2, instance:TestNG_23July_Assignment@25084a1e]" started-at="2023-07-27T01:31:53 EDT" name="loginTestCase2" finished-at="2023-07-27T01:31:57 EDT" duration-ms="3426" status="PASS">
+        <test-method signature="loginTestCase1(java.lang.String,java.lang.String)[pri:1, instance:com.day11DataProvider.automation.ClassAssignment_TN2@593aaf41]" started-at="2023-07-27T21:56:55 EDT" name="loginTestCase1" data-provider="TutorialsNinja" finished-at="2023-07-27T21:56:58 EDT" duration-ms="2558" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[divyapatel0295@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Qwerty@1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTestCase1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.day11DataProvider.automation.ClassAssignment_TN2@593aaf41]" started-at="2023-07-27T21:56:58 EDT" name="tearDown" finished-at="2023-07-27T21:56:58 EDT" duration-ms="102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tutorialNinja()[pri:0, instance:com.day11DataProvider.automation.ClassAssignment_TN2@593aaf41]" started-at="2023-07-27T21:56:58 EDT" name="tutorialNinja" finished-at="2023-07-27T21:57:01 EDT" duration-ms="3579" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tutorialNinja -->
+        <test-method signature="loginTestCase1(java.lang.String,java.lang.String)[pri:1, instance:com.day11DataProvider.automation.ClassAssignment_TN2@593aaf41]" started-at="2023-07-27T21:57:01 EDT" name="loginTestCase1" data-provider="TutorialsNinja" finished-at="2023-07-27T21:57:04 EDT" duration-ms="2494" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[seleniumpanda2@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Selenium@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTestCase1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.day11DataProvider.automation.ClassAssignment_TN2@593aaf41]" started-at="2023-07-27T21:57:04 EDT" name="tearDown" finished-at="2023-07-27T21:57:04 EDT" duration-ms="103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tutorialNinja()[pri:0, instance:com.day11DataProvider.automation.ClassAssignment_TN2@593aaf41]" started-at="2023-07-27T21:57:04 EDT" name="tutorialNinja" finished-at="2023-07-27T21:57:06 EDT" duration-ms="2415" status="FAIL">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'LAPTOP-EDU7HGVC', ip: '10.0.0.16'
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'LAPTOP-EDU7HGVC', ip: '10.0.0.16'
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:549)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:227)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:154)
+at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:107)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:87)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:82)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:50)
+at com.day11DataProvider.automation.ClassAssignment_TN2.tutorialNinja(ClassAssignment_TN2.java:15)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.io.UncheckedIOException: java.net.SocketException: Connection reset
+at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:73)
+at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+at org.openqa.selenium.remote.http.netty.NettyHttpHandler.execute(NettyHttpHandler.java:48)
+at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+at org.openqa.selenium.remote.http.netty.NettyClient.execute(NettyClient.java:97)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:115)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:96)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:68)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:163)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+... 39 more
+Caused by: java.net.SocketException: Connection reset
+at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tutorialNinja -->
+        <test-method signature="loginTestCase2(java.lang.String,java.lang.String)[pri:2, instance:com.day11DataProvider.automation.ClassAssignment_TN2@593aaf41]" started-at="2023-07-27T21:57:06 EDT" name="loginTestCase2" data-provider="TutorialsNinja" finished-at="2023-07-27T21:57:06 EDT" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pateldivya301@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Qwerty@123]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'LAPTOP-EDU7HGVC', ip: '10.0.0.16'
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'LAPTOP-EDU7HGVC', ip: '10.0.0.16'
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:549)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:227)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:154)
+at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:107)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:87)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:82)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:50)
+at com.day11DataProvider.automation.ClassAssignment_TN2.tutorialNinja(ClassAssignment_TN2.java:15)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.io.UncheckedIOException: java.net.SocketException: Connection reset
+at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:73)
+at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+at org.openqa.selenium.remote.http.netty.NettyHttpHandler.execute(NettyHttpHandler.java:48)
+at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+at org.openqa.selenium.remote.http.netty.NettyClient.execute(NettyClient.java:97)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:115)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:96)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:68)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:163)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+... 39 more
+Caused by: java.net.SocketException: Connection reset
+at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTestCase2 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNG_23July_Assignment@25084a1e]" started-at="2023-07-27T01:31:57 EDT" name="tearDown" finished-at="2023-07-27T01:31:57 EDT" duration-ms="128" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.day11DataProvider.automation.ClassAssignment_TN2@593aaf41]" started-at="2023-07-27T21:57:06 EDT" name="tearDown" finished-at="1969-12-31T19:00:00 EST" duration-ms="-1690509426986" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="tutorialNinja()[pri:0, instance:TestNG_23July_Assignment@25084a1e]" started-at="2023-07-27T01:31:57 EDT" name="tutorialNinja" finished-at="2023-07-27T01:32:01 EDT" duration-ms="3556" status="FAIL">
-          <exception class="org.openqa.selenium.SessionNotCreatedException">
-            <message>
-              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'LAPTOP-EDU7HGVC', ip: '10.0.0.16'
-Build info: version: '4.10.0', revision: 'c14d967899'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'LAPTOP-EDU7HGVC', ip: '10.0.0.16'
-Build info: version: '4.10.0', revision: 'c14d967899'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:549)
-at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:227)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:154)
-at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:107)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:87)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:82)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:50)
-at TestNG_23July_Assignment.tutorialNinja(TestNG_23July_Assignment.java:12)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: java.io.UncheckedIOException: java.net.SocketException: Connection reset
-at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:73)
-at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
-at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
-at org.openqa.selenium.remote.http.netty.NettyHttpHandler.execute(NettyHttpHandler.java:48)
-at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
-at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
-at org.openqa.selenium.remote.http.netty.NettyClient.execute(NettyClient.java:97)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:115)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:96)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:68)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:163)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
-... 39 more
-Caused by: java.net.SocketException: Connection reset
-at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
-at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
-at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
-at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
-at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
-at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
-at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
-at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
-at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
-at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
-at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
-at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-at java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+        <test-method is-config="true" signature="tutorialNinja()[pri:0, instance:com.day11DataProvider.automation.ClassAssignment_TN2@593aaf41]" started-at="2023-07-27T21:57:06 EDT" name="tutorialNinja" finished-at="1969-12-31T19:00:00 EST" duration-ms="-1690509426987" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tutorialNinja -->
-        <test-method signature="loginTestCase3()[pri:3, instance:TestNG_23July_Assignment@25084a1e]" started-at="2023-07-27T01:32:01 EDT" name="loginTestCase3" finished-at="2023-07-27T01:32:01 EDT" duration-ms="0" status="SKIP">
+        <test-method signature="loginTestCase2(java.lang.String,java.lang.String)[pri:2, instance:com.day11DataProvider.automation.ClassAssignment_TN2@593aaf41]" started-at="2023-07-27T21:57:06 EDT" name="loginTestCase2" data-provider="TutorialsNinja" finished-at="2023-07-27T21:57:06 EDT" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[divyapatel0295@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Qwerty@1234]]>
+              </value>
+            </param>
+          </params>
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
@@ -149,7 +323,7 @@ at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:107)
 at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:87)
 at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:82)
 at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:50)
-at TestNG_23July_Assignment.tutorialNinja(TestNG_23July_Assignment.java:12)
+at com.day11DataProvider.automation.ClassAssignment_TN2.tutorialNinja(ClassAssignment_TN2.java:15)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -218,16 +392,28 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginTestCase3 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNG_23July_Assignment@25084a1e]" started-at="2023-07-27T01:32:01 EDT" name="tearDown" finished-at="1969-12-31T19:00:00 EST" duration-ms="-1690435921120" status="SKIP">
+        </test-method> <!-- loginTestCase2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.day11DataProvider.automation.ClassAssignment_TN2@593aaf41]" started-at="2023-07-27T21:57:06 EDT" name="tearDown" finished-at="1969-12-31T19:00:00 EST" duration-ms="-1690509426990" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="tutorialNinja()[pri:0, instance:TestNG_23July_Assignment@25084a1e]" started-at="2023-07-27T01:32:01 EDT" name="tutorialNinja" finished-at="1969-12-31T19:00:00 EST" duration-ms="-1690435921123" status="SKIP">
+        <test-method is-config="true" signature="tutorialNinja()[pri:0, instance:com.day11DataProvider.automation.ClassAssignment_TN2@593aaf41]" started-at="2023-07-27T21:57:06 EDT" name="tutorialNinja" finished-at="1969-12-31T19:00:00 EST" duration-ms="-1690509426990" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tutorialNinja -->
-        <test-method signature="registerTestCase4()[pri:4, instance:TestNG_23July_Assignment@25084a1e]" started-at="2023-07-27T01:32:01 EDT" name="registerTestCase4" finished-at="2023-07-27T01:32:01 EDT" duration-ms="0" status="SKIP">
+        <test-method signature="loginTestCase2(java.lang.String,java.lang.String)[pri:2, instance:com.day11DataProvider.automation.ClassAssignment_TN2@593aaf41]" started-at="2023-07-27T21:57:06 EDT" name="loginTestCase2" data-provider="TutorialsNinja" finished-at="2023-07-27T21:57:06 EDT" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[seleniumpanda2@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Selenium@123]]>
+              </value>
+            </param>
+          </params>
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
@@ -251,7 +437,7 @@ at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:107)
 at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:87)
 at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:82)
 at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:50)
-at TestNG_23July_Assignment.tutorialNinja(TestNG_23July_Assignment.java:12)
+at com.day11DataProvider.automation.ClassAssignment_TN2.tutorialNinja(ClassAssignment_TN2.java:15)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -320,142 +506,155 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- registerTestCase4 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNG_23July_Assignment@25084a1e]" started-at="2023-07-27T01:32:01 EDT" name="tearDown" finished-at="1969-12-31T19:00:00 EST" duration-ms="-1690435921133" status="SKIP">
+        </test-method> <!-- loginTestCase2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.day11DataProvider.automation.ClassAssignment_TN2@593aaf41]" started-at="2023-07-27T21:57:06 EDT" name="tearDown" finished-at="1969-12-31T19:00:00 EST" duration-ms="-1690509426992" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="tutorialNinja()[pri:0, instance:TestNG_23July_Assignment@25084a1e]" started-at="2023-07-27T01:32:01 EDT" name="tutorialNinja" finished-at="1969-12-31T19:00:00 EST" duration-ms="-1690435921134" status="SKIP">
+      </class> <!-- com.day11DataProvider.automation.ClassAssignment_TN2 -->
+      <class name="com.day11DataProvider.automation.ClassAssignment_TN1">
+        <test-method is-config="true" signature="tutorialNinja()[pri:0, instance:com.day11DataProvider.automation.ClassAssignment_TN1@bd4dc25]" started-at="2023-07-27T21:55:33 EDT" name="tutorialNinja" finished-at="2023-07-27T21:55:37 EDT" duration-ms="4569" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tutorialNinja -->
-        <test-method signature="registerTestCase5()[pri:4, instance:TestNG_23July_Assignment@25084a1e]" started-at="2023-07-27T01:32:01 EDT" name="registerTestCase5" finished-at="2023-07-27T01:32:01 EDT" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.SessionNotCreatedException">
-            <message>
-              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'LAPTOP-EDU7HGVC', ip: '10.0.0.16'
-Build info: version: '4.10.0', revision: 'c14d967899'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'LAPTOP-EDU7HGVC', ip: '10.0.0.16'
-Build info: version: '4.10.0', revision: 'c14d967899'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:549)
-at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:227)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:154)
-at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:107)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:87)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:82)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:50)
-at TestNG_23July_Assignment.tutorialNinja(TestNG_23July_Assignment.java:12)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: java.io.UncheckedIOException: java.net.SocketException: Connection reset
-at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:73)
-at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
-at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
-at org.openqa.selenium.remote.http.netty.NettyHttpHandler.execute(NettyHttpHandler.java:48)
-at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
-at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
-at org.openqa.selenium.remote.http.netty.NettyClient.execute(NettyClient.java:97)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:115)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:96)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:68)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:163)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
-... 39 more
-Caused by: java.net.SocketException: Connection reset
-at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
-at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
-at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
-at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
-at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
-at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
-at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
-at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
-at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
-at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
-at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
-at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-at java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+        <test-method signature="loginTestCase1(java.lang.String,java.lang.String)[pri:1, instance:com.day11DataProvider.automation.ClassAssignment_TN1@bd4dc25]" started-at="2023-07-27T21:55:37 EDT" name="loginTestCase1" data-provider="TutorialsNinja" finished-at="2023-07-27T21:55:40 EDT" duration-ms="2523" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pateldivya301@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Qwerty@123]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- registerTestCase5 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNG_23July_Assignment@25084a1e]" started-at="2023-07-27T01:32:01 EDT" name="tearDown" finished-at="1969-12-31T19:00:00 EST" duration-ms="-1690435921142" status="SKIP">
+        </test-method> <!-- loginTestCase1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.day11DataProvider.automation.ClassAssignment_TN1@bd4dc25]" started-at="2023-07-27T21:55:40 EDT" name="tearDown" finished-at="2023-07-27T21:55:40 EDT" duration-ms="108" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="tutorialNinja()[pri:0, instance:TestNG_23July_Assignment@25084a1e]" started-at="2023-07-27T01:32:01 EDT" name="tutorialNinja" finished-at="1969-12-31T19:00:00 EST" duration-ms="-1690435921144" status="SKIP">
+        <test-method is-config="true" signature="tutorialNinja()[pri:0, instance:com.day11DataProvider.automation.ClassAssignment_TN1@bd4dc25]" started-at="2023-07-27T21:55:40 EDT" name="tutorialNinja" finished-at="2023-07-27T21:55:43 EDT" duration-ms="3590" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tutorialNinja -->
-        <test-method signature="registerTestCase6()[pri:5, instance:TestNG_23July_Assignment@25084a1e]" started-at="2023-07-27T01:32:01 EDT" name="registerTestCase6" finished-at="2023-07-27T01:32:01 EDT" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.SessionNotCreatedException">
+        <test-method signature="loginTestCase1(java.lang.String,java.lang.String)[pri:1, instance:com.day11DataProvider.automation.ClassAssignment_TN1@bd4dc25]" started-at="2023-07-27T21:55:43 EDT" name="loginTestCase1" data-provider="TutorialsNinja" finished-at="2023-07-27T21:55:46 EDT" duration-ms="2493" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[divyapatel0295@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Qwerty@1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTestCase1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.day11DataProvider.automation.ClassAssignment_TN1@bd4dc25]" started-at="2023-07-27T21:55:46 EDT" name="tearDown" finished-at="2023-07-27T21:55:46 EDT" duration-ms="103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tutorialNinja()[pri:0, instance:com.day11DataProvider.automation.ClassAssignment_TN1@bd4dc25]" started-at="2023-07-27T21:55:46 EDT" name="tutorialNinja" finished-at="2023-07-27T21:55:50 EDT" duration-ms="3733" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tutorialNinja -->
+        <test-method signature="loginTestCase1(java.lang.String,java.lang.String)[pri:1, instance:com.day11DataProvider.automation.ClassAssignment_TN1@bd4dc25]" started-at="2023-07-27T21:55:50 EDT" name="loginTestCase1" data-provider="TutorialsNinja" finished-at="2023-07-27T21:55:52 EDT" duration-ms="2523" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[seleniumpanda2@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Selenium@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTestCase1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.day11DataProvider.automation.ClassAssignment_TN1@bd4dc25]" started-at="2023-07-27T21:55:52 EDT" name="tearDown" finished-at="2023-07-27T21:55:52 EDT" duration-ms="138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tutorialNinja()[pri:0, instance:com.day11DataProvider.automation.ClassAssignment_TN1@bd4dc25]" started-at="2023-07-27T21:55:52 EDT" name="tutorialNinja" finished-at="2023-07-27T21:55:56 EDT" duration-ms="3876" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tutorialNinja -->
+        <test-method signature="loginTestCase2(java.lang.String,java.lang.String)[pri:2, instance:com.day11DataProvider.automation.ClassAssignment_TN1@bd4dc25]" started-at="2023-07-27T21:55:56 EDT" name="loginTestCase2" data-provider="TutorialsNinja" finished-at="2023-07-27T21:55:59 EDT" duration-ms="2522" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pateldivya301@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Qwerty@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTestCase2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.day11DataProvider.automation.ClassAssignment_TN1@bd4dc25]" started-at="2023-07-27T21:55:59 EDT" name="tearDown" finished-at="2023-07-27T21:55:59 EDT" duration-ms="103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tutorialNinja()[pri:0, instance:com.day11DataProvider.automation.ClassAssignment_TN1@bd4dc25]" started-at="2023-07-27T21:55:59 EDT" name="tutorialNinja" finished-at="2023-07-27T21:56:03 EDT" duration-ms="3545" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tutorialNinja -->
+        <test-method signature="loginTestCase2(java.lang.String,java.lang.String)[pri:2, instance:com.day11DataProvider.automation.ClassAssignment_TN1@bd4dc25]" started-at="2023-07-27T21:56:03 EDT" name="loginTestCase2" data-provider="TutorialsNinja" finished-at="2023-07-27T21:56:05 EDT" duration-ms="2494" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[divyapatel0295@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Qwerty@1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTestCase2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.day11DataProvider.automation.ClassAssignment_TN1@bd4dc25]" started-at="2023-07-27T21:56:05 EDT" name="tearDown" finished-at="2023-07-27T21:56:05 EDT" duration-ms="102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tutorialNinja()[pri:0, instance:com.day11DataProvider.automation.ClassAssignment_TN1@bd4dc25]" started-at="2023-07-27T21:56:05 EDT" name="tutorialNinja" finished-at="2023-07-27T21:56:45 EDT" duration-ms="40025" status="FAIL">
+          <exception class="org.openqa.selenium.remote.UnreachableBrowserException">
             <message>
-              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'LAPTOP-EDU7HGVC', ip: '10.0.0.16'
+              <![CDATA[Error communicating with the remote browser. It may have died.
 Build info: version: '4.10.0', revision: 'c14d967899'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]]]>
+Command: [2d3faff4567849748985f99d2d68d23c, get {url=https://tutorialsninja.com/demo/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\patel\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56931}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56931/devtoo..., se:cdpVersion: 115.0.5790.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2d3faff4567849748985f99d2d68d23c]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'LAPTOP-EDU7HGVC', ip: '10.0.0.16'
+              <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
 Build info: version: '4.10.0', revision: 'c14d967899'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:549)
-at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:227)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:154)
-at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:107)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:87)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:82)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:50)
-at TestNG_23July_Assignment.tutorialNinja(TestNG_23July_Assignment.java:12)
+Command: [2d3faff4567849748985f99d2d68d23c, get {url=https://tutorialsninja.com/demo/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\patel\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56931}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56931/devtoo..., se:cdpVersion: 115.0.5790.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2d3faff4567849748985f99d2d68d23c
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:295)
+at com.day11DataProvider.automation.ClassAssignment_TN1.tutorialNinja(ClassAssignment_TN1.java:16)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -496,14 +695,11 @@ at org.openqa.selenium.remote.http.netty.NettyHttpHandler.execute(NettyHttpHandl
 at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
 at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
 at org.openqa.selenium.remote.http.netty.NettyClient.execute(NettyClient.java:97)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:115)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:96)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:68)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:163)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:188)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
-... 39 more
+... 34 more
 Caused by: java.net.SocketException: Connection reset
 at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
 at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
@@ -521,15 +717,261 @@ at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.
 at java.base/java.lang.Thread.run(Thread.java:833)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          </exception> <!-- org.openqa.selenium.remote.UnreachableBrowserException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- registerTestCase6 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNG_23July_Assignment@25084a1e]" started-at="2023-07-27T01:32:01 EDT" name="tearDown" finished-at="1969-12-31T19:00:00 EST" duration-ms="-1690435921149" status="SKIP">
+        </test-method> <!-- tutorialNinja -->
+        <test-method signature="loginTestCase2(java.lang.String,java.lang.String)[pri:2, instance:com.day11DataProvider.automation.ClassAssignment_TN1@bd4dc25]" started-at="2023-07-27T21:56:45 EDT" name="loginTestCase2" data-provider="TutorialsNinja" finished-at="2023-07-27T21:56:45 EDT" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[seleniumpanda2@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Selenium@123]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.remote.UnreachableBrowserException">
+            <message>
+              <![CDATA[Error communicating with the remote browser. It may have died.
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2d3faff4567849748985f99d2d68d23c, get {url=https://tutorialsninja.com/demo/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\patel\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56931}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56931/devtoo..., se:cdpVersion: 115.0.5790.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2d3faff4567849748985f99d2d68d23c]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2d3faff4567849748985f99d2d68d23c, get {url=https://tutorialsninja.com/demo/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\patel\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56931}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56931/devtoo..., se:cdpVersion: 115.0.5790.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2d3faff4567849748985f99d2d68d23c
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:295)
+at com.day11DataProvider.automation.ClassAssignment_TN1.tutorialNinja(ClassAssignment_TN1.java:16)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.io.UncheckedIOException: java.net.SocketException: Connection reset
+at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:73)
+at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+at org.openqa.selenium.remote.http.netty.NettyHttpHandler.execute(NettyHttpHandler.java:48)
+at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+at org.openqa.selenium.remote.http.netty.NettyClient.execute(NettyClient.java:97)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:188)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+... 34 more
+Caused by: java.net.SocketException: Connection reset
+at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.remote.UnreachableBrowserException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTestCase2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.day11DataProvider.automation.ClassAssignment_TN1@bd4dc25]" started-at="2023-07-27T21:56:45 EDT" name="tearDown" finished-at="1969-12-31T19:00:00 EST" duration-ms="-1690509405669" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- TestNG_23July_Assignment -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- com.day11DataProvider.automation.ClassAssignment_TN1 -->
+      <class name="com.day11DataProvider.automation.ClassAssignment_TN3">
+        <test-method is-config="true" signature="tutorialNinja()[pri:0, instance:com.day11DataProvider.automation.ClassAssignment_TN3@5a56cdac]" started-at="2023-07-27T21:57:06 EDT" name="tutorialNinja" finished-at="2023-07-27T21:57:10 EDT" duration-ms="3556" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tutorialNinja -->
+        <test-method signature="loginTestCase1(java.lang.String,java.lang.String)[pri:1, instance:com.day11DataProvider.automation.ClassAssignment_TN3@5a56cdac]" started-at="2023-07-27T21:57:10 EDT" name="loginTestCase1" data-provider="TutorialsNinja" finished-at="2023-07-27T21:57:13 EDT" duration-ms="2470" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pateldivya301@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Qwerty@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTestCase1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.day11DataProvider.automation.ClassAssignment_TN3@5a56cdac]" started-at="2023-07-27T21:57:13 EDT" name="tearDown" finished-at="2023-07-27T21:57:13 EDT" duration-ms="102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tutorialNinja()[pri:0, instance:com.day11DataProvider.automation.ClassAssignment_TN3@5a56cdac]" started-at="2023-07-27T21:57:13 EDT" name="tutorialNinja" finished-at="2023-07-27T21:57:16 EDT" duration-ms="3549" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tutorialNinja -->
+        <test-method signature="loginTestCase1(java.lang.String,java.lang.String)[pri:1, instance:com.day11DataProvider.automation.ClassAssignment_TN3@5a56cdac]" started-at="2023-07-27T21:57:16 EDT" name="loginTestCase1" data-provider="TutorialsNinja" finished-at="2023-07-27T21:57:19 EDT" duration-ms="2485" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[divyapatel0295@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Qwerty@1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTestCase1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.day11DataProvider.automation.ClassAssignment_TN3@5a56cdac]" started-at="2023-07-27T21:57:19 EDT" name="tearDown" finished-at="2023-07-27T21:57:19 EDT" duration-ms="108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tutorialNinja()[pri:0, instance:com.day11DataProvider.automation.ClassAssignment_TN3@5a56cdac]" started-at="2023-07-27T21:57:19 EDT" name="tutorialNinja" finished-at="2023-07-27T21:57:22 EDT" duration-ms="3556" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tutorialNinja -->
+        <test-method signature="loginTestCase1(java.lang.String,java.lang.String)[pri:1, instance:com.day11DataProvider.automation.ClassAssignment_TN3@5a56cdac]" started-at="2023-07-27T21:57:22 EDT" name="loginTestCase1" data-provider="TutorialsNinja" finished-at="2023-07-27T21:57:25 EDT" duration-ms="2466" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[seleniumpanda2@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Selenium@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTestCase1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.day11DataProvider.automation.ClassAssignment_TN3@5a56cdac]" started-at="2023-07-27T21:57:25 EDT" name="tearDown" finished-at="2023-07-27T21:57:25 EDT" duration-ms="102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tutorialNinja()[pri:0, instance:com.day11DataProvider.automation.ClassAssignment_TN3@5a56cdac]" started-at="2023-07-27T21:57:25 EDT" name="tutorialNinja" finished-at="2023-07-27T21:57:28 EDT" duration-ms="3544" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tutorialNinja -->
+        <test-method signature="loginTestCase2(java.lang.String,java.lang.String)[pri:2, instance:com.day11DataProvider.automation.ClassAssignment_TN3@5a56cdac]" started-at="2023-07-27T21:57:28 EDT" name="loginTestCase2" data-provider="TutorialsNinja" finished-at="2023-07-27T21:57:31 EDT" duration-ms="2407" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pateldivya301@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Qwerty@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTestCase2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.day11DataProvider.automation.ClassAssignment_TN3@5a56cdac]" started-at="2023-07-27T21:57:31 EDT" name="tearDown" finished-at="2023-07-27T21:57:31 EDT" duration-ms="103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tutorialNinja()[pri:0, instance:com.day11DataProvider.automation.ClassAssignment_TN3@5a56cdac]" started-at="2023-07-27T21:57:31 EDT" name="tutorialNinja" finished-at="2023-07-27T21:57:34 EDT" duration-ms="3493" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tutorialNinja -->
+        <test-method signature="loginTestCase2(java.lang.String,java.lang.String)[pri:2, instance:com.day11DataProvider.automation.ClassAssignment_TN3@5a56cdac]" started-at="2023-07-27T21:57:34 EDT" name="loginTestCase2" data-provider="TutorialsNinja" finished-at="2023-07-27T21:57:37 EDT" duration-ms="2402" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[divyapatel0295@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Qwerty@1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTestCase2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.day11DataProvider.automation.ClassAssignment_TN3@5a56cdac]" started-at="2023-07-27T21:57:37 EDT" name="tearDown" finished-at="2023-07-27T21:57:37 EDT" duration-ms="104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tutorialNinja()[pri:0, instance:com.day11DataProvider.automation.ClassAssignment_TN3@5a56cdac]" started-at="2023-07-27T21:57:37 EDT" name="tutorialNinja" finished-at="2023-07-27T21:57:41 EDT" duration-ms="3621" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tutorialNinja -->
+        <test-method signature="loginTestCase2(java.lang.String,java.lang.String)[pri:2, instance:com.day11DataProvider.automation.ClassAssignment_TN3@5a56cdac]" started-at="2023-07-27T21:57:41 EDT" name="loginTestCase2" data-provider="TutorialsNinja" finished-at="2023-07-27T21:57:43 EDT" duration-ms="2467" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[seleniumpanda2@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Selenium@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTestCase2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.day11DataProvider.automation.ClassAssignment_TN3@5a56cdac]" started-at="2023-07-27T21:57:43 EDT" name="tearDown" finished-at="2023-07-27T21:57:43 EDT" duration-ms="102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.day11DataProvider.automation.ClassAssignment_TN3 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

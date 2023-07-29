@@ -27,7 +27,7 @@ public class TestNG_23July_Assignment {
 		driver.findElement(By.cssSelector("a.btn.btn-primary")).click();			
 	}
 	
-	@Test(priority = 2)
+	@Test(priority = 2 )
 	public void loginTestCase2() {
 		driver.findElement(By.linkText("My Account")).click();
 		driver.findElement(By.linkText("Login")).click();
@@ -38,7 +38,7 @@ public class TestNG_23July_Assignment {
 		driver.findElement(By.cssSelector("a.btn.btn-primary")).click();
 	}
 	
-	@Test(priority = 3)
+	@Test(priority = 3 )
 	public void loginTestCase3() throws InterruptedException {
 		driver.findElement(By.linkText("My Account")).click();
 		driver.findElement(By.linkText("Login")).click();
@@ -64,12 +64,12 @@ public class TestNG_23July_Assignment {
 		driver.findElement(By.cssSelector("#input-confirm")).sendKeys("Qwerty@1234");
 		driver.findElement(By.cssSelector("label.radio-inline:nth-child(1) > input")).click();
 		driver.findElement(By.cssSelector("input[name = agree]")).click();
-		driver.findElement(By.cssSelector("btn.btn-primary")).click();
+		driver.findElement(By.cssSelector(".btn.btn-primary")).click();
 		
 		
 	}
 	
-	@Test(priority = 4)
+	@Test(priority = 5)
 	public void registerTestCase5() throws InterruptedException {
 		driver.findElement(By.linkText("My Account")).click();
 		driver.findElement(By.linkText("Register")).click();
@@ -85,7 +85,7 @@ public class TestNG_23July_Assignment {
 		
 	}
 	
-	@Test(priority = 5)
+	@Test(priority = 6)
 	public void registerTestCase6() throws InterruptedException {
 		driver.findElement(By.linkText("My Account")).click();
 		driver.findElement(By.linkText("Register")).click();
